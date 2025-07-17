@@ -304,36 +304,4 @@ ul a{
   }
 }
 
-@media screen and (max-width: 480px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-  }
 
-  .nav-logo,
-  .nav-addres,
-  .nav-search,
-  .nav-signin,
-  .nav-return,
-  .nav-cart {
-    width: 100%;
-    margin: 5px 0;
-    justify-content: center;
-  }
-
-  .panel {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-  }
-
-  .box-content h2 {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .box-img {
-    height: 200px;
-  }
-}
